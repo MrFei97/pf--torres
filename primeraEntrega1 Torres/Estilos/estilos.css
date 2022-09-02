@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*----------------------Menu de navegacion-------------------- */
+#header {
+    margin: 1px;
+    width: 700px;
+    margin-left: 500px;
+    display: inline-block;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.nav li a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav li a:hover {
+    background-color: rgb(95, 85, 231);
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover>ul {
+    display: block;
+}
+
+.nav>li {
+    float: center;
+}
+
+/*----------------------Menu de bloques-------------------- */
+#block {
+    margin: 1px;
+    width: 900px;
+    height: 900px;
+    margin-left: 100px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#block2 {
+    margin: 1px;
+    width: 900px;
+    height: 900px;
+    margin-left: 100px;
+    margin-top: -1000px;
+    display: inline-block;
+}
+
+#block3 {
+
+    margin: 1px;
+    width: 300px;
+    height:100px;
+    margin-left: 1000px;
+    margin-top: -1000px;
+    display: inline-block;
+}
+
+#block4 {
+
+    margin: 1px;
+    width: 900px;
+    height: 900px;
+    margin-left: 100px;
+    margin-top: -1000px;
+    display: inline-block;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.nav2 li a {
+    background-color: rgb(133, 133, 133);
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    height: 450px;
+    display: block;
+}
+
+.nav2 li a:hover {
+    background-color: grey;
+    
+}
+
+.nav2 li ul {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+}
+
+.nav2 li:hover>ul {
+    display: block;
+}
+
+.nav2>li {
+    float: center;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.nav3 li a {
+    background-color: rgb(133, 133, 133);
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    height: 450px;
+    display: block;
+}
+
+.nav3 li a:hover {
+    background-color: grey;
+    
+}
+
+.nav3 li ul {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+}
+
+.nav3 li:hover>ul {
+    display: block;
+}
+
+.nav3>li {
+    background-color: rgb(97, 95, 219);
+    color: rgb(238, 255, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    height: 450px;
+    display: block;
+    
+    
+}
+
+
+
+
+
+/*----------------------------------Etiquetas-------------------------*/
+
+body {
+    background-image: url(../Imagenes/background.jpg);
+    background-size: cover;
+    font-family: 'Bebas Neue';
+    font-size: 155%;
+}
+
+.titulo {
+    text-align: center;
+    color: rgb(255, 238, 0);
+    font-size:100%;
+    display: block;
+}
+
+.titulo2 {
+    text-align: center;
+    color: rgb(255, 238, 0);
+    font-size:220%;
+    display: block;
+}
+
+.banner{
+    width: 900px;
+    height: 300px;
+    background-image: url(../Imagenes/banner.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-left: 450px;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    background-image: url(../Imagenes/logo.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-left: 750px;
+    
+}
+
+.footer{
+    margin-top: -400px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+.footer2{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+.footer{
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+.footer2{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+.textBlocks{
+    width: 900px;
+    height: 400px;
+    background-color: rgba(83, 78, 78, 0.5);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 475px;
+    margin-top: 40px;
+}
+.margen{
+    margin-right: 5px;
+}
