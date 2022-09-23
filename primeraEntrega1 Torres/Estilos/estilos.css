@@ -1,13 +1,31 @@
+
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
-/*----------------------Menu de navegacion-------------------- */
+
+body {
+
+    
+        background-image: url(../Imagenes/background.jpg);
+        background-size: cover;
+        font-family: 'Raleway', sans-serif;
+        font-size: 120%;
+
+}
+
+
+/*------------------Grid y Flex-------------*/
+/*Index*/
+
+.mainA{
+    margin: 10px;
+}
+
 #header {
     margin: 1px;
     width: 700px;
-    margin-left: 500px;
+    position: center;
+
     display: inline-block;
 }
 
@@ -24,7 +42,7 @@ ul, ol {
 }
 
 .nav li a:hover {
-    background-color: rgb(95, 85, 231);
+    background-color: rgb(44, 43, 102);
 }
 
 .nav li ul {
@@ -43,39 +61,45 @@ ul, ol {
 
 /*----------------------Menu de bloques-------------------- */
 #block {
-    margin: 1px;
-    width: 900px;
-    height: 900px;
-    margin-left: 100px;
-    margin-top: 10px;
+
+  
+    width: 300px;
+    height:100px;
+    position: center;
+    margin-right: 650px;
+   
+   
+
+  
     display: inline-block;
 }
 
 #block2 {
-    margin: 1px;
-    width: 900px;
-    height: 900px;
-    margin-left: 100px;
-    margin-top: -1000px;
+
+    width: 300px;
+    height: 100px;
+ 
+    
     display: inline-block;
 }
 
 #block3 {
 
-    margin: 1px;
+
     width: 300px;
     height:100px;
-    margin-left: 1000px;
-    margin-top: -1000px;
+
+ 
+
     display: inline-block;
 }
 
 #block4 {
 
-    margin: 1px;
+
     width: 900px;
     height: 900px;
-    margin-left: 100px;
+
     margin-top: -1000px;
     display: inline-block;
 }
@@ -88,9 +112,10 @@ ul, ol {
     background-color: rgb(133, 133, 133);
     color: black;
     text-decoration: none;
-    padding: 10px 15px;
-    height: 450px;
     display: block;
+    height: 450px;
+    width: 900px;
+ 
 }
 
 .nav2 li a:hover {
@@ -99,9 +124,10 @@ ul, ol {
 }
 
 .nav2 li ul {
-    display: none;
+    display: center;
     position: absolute;
     min-width: 200px;
+    
 }
 
 .nav2 li:hover>ul {
@@ -120,18 +146,19 @@ ul, ol {
     background-color: rgb(133, 133, 133);
     color: black;
     text-decoration: none;
-    padding: 10px 15px;
-    height: 450px;
     display: block;
+    height: 450px;
+    width: 900px;
 }
 
 .nav3 li a:hover {
     background-color: grey;
     
+    
 }
 
 .nav3 li ul {
-    display: none;
+    display: center;
     position: absolute;
     min-width: 200px;
 }
@@ -144,25 +171,24 @@ ul, ol {
     background-color: rgb(97, 95, 219);
     color: rgb(238, 255, 0);
     text-decoration: none;
-    padding: 10px 15px;
     height: 450px;
     display: block;
     
     
+    
 }
 
 
 
-
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*----------------------------------Etiquetas-------------------------*/
 
-body {
-    background-image: url(../Imagenes/background.jpg);
-    background-size: cover;
-    font-family: 'Bebas Neue';
-    font-size: 155%;
-}
+
 
 .titulo {
     text-align: center;
@@ -179,13 +205,14 @@ body {
 }
 
 .banner{
+
     width: 900px;
     height: 300px;
     background-image: url(../Imagenes/banner.png);
-    background-position: right;
+    background-position: center;
     background-size: cover;
     background-repeat:no-repeat;
-    margin-left: 450px;
+   margin: 0px 0px 0px 0px
 }
 
 .logo{
@@ -196,6 +223,17 @@ body {
     background-size: cover;
     background-repeat:no-repeat;
     margin-left: 750px;
+    
+}
+
+.picture1{
+    width: 900px;
+    height: 300px;
+    background-image: url(../Imagenes/sayonara.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-left: 0px;
     
 }
 
@@ -228,9 +266,10 @@ body {
     background-color: rgba(83, 78, 78, 0.5);
     color: rgb(255, 255, 255);
     text-align: center;
-    margin-left: 475px;
-    margin-top: 40px;
+    margin-left: 70px;
+ 
 }
 .margen{
     margin-right: 5px;
 }
+  
