@@ -16,3 +16,6 @@ Version 3:
 -Se implemento el uso de scss
 -Se habilito el uso de nmp
 -Se implemento SEO (Keywords y descripciones)
+
+Entrega final:
+-Sitio web on: https://mrfei97.github.io
